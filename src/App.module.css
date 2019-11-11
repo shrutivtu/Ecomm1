@@ -1,0 +1,121 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+.header{
+  width:100%;
+  background: #557A95;
+  height:50px;
+  padding:10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  width:12%;
+  box-sizing: border-box;
+}
+.logoName{
+  color:white;
+  font-size:20px;
+  cursor:pointer;
+}
+.sectionnames{
+  display: flex;
+  color:white;
+  width:20%;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-top:5px;
+}
+.accessories{
+  cursor: pointer;
+}
+.clothing{
+  cursor: pointer;
+}
+.cartlogosec{
+  width:15%;
+  box-sizing: border-box;
+  margin-top:5px;
+}
+.cartlogo{
+  color:white;
+  font-size:20px;
+}
+.numberofitems{
+  color:white;
+  position: absolute;
+}
+.productWrapper{
+  max-width:95%;
+  margin: 0 auto;
+  padding:10px;
+  margin-top:20px;
+  margin-bottom:20px;
+  box-sizing: border-box;
+}
+.productheading{
+  margin-top:15px;
+  margin-bottom:15px;
+  margin-left:5px;
+  color:black;
+}
+.clothSec{
+  width:100%;
+  height:400px;
+  display: flex;
+  justify-content: space-between;
+  margin:0 auto;
+  margin-bottom:40px;
+  margin-left:10px;
+}
+.accessorySec{
+  width:100%;
+  height:400px;
+  display: flex;
+  justify-content: space-between;
+  margin:0 auto;
+  margin-top:20px;
+  margin-left:10px;
+}
+.productcard{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  margin-right:10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.productcard:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.cardimg{
+  width:100%;
+  height:250px;
+  cursor: pointer;
+}
+.productname{
+  margin-top:10px;
+  margin-left:10px;
+  color:#557A95;
+}
+.brandname{
+  margin-top:10px;
+  margin-left:10px;
+  color:#8D8741;
+}
+.price{
+  margin-top:10px;
+  margin-left:10px;
+  color:#8D8741;
+}
+.footer{
+  width:100%;
+  height:100px;
+  background: #557A95;
+  color:white;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top:32px;
+}
